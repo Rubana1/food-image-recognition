@@ -47,7 +47,8 @@
 * This system can be used in various areas such as social network, health-care applications, eating-habit evaluations, etc.
 * For food image recognition we will be using transfer learning to retrain the final layer (with 101 additional food-classes) of Inception-v3 model which is already trained by Google on 1000 classes.
 * It almost took 10-11 hours to train the model on Google Colab.    
-
+### To run:
+python app.py
 ### Built With
 
 * [Python](https://www.python.org/)
